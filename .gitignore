@@ -8,3 +8,4 @@ venv/
 .jdk/
 .buildtools/
 dist/
+servers/**/*
