@@ -1,11 +1,11 @@
-import os
-from enum import Enum
 import json
-from threading import Thread
+import os
 import shutil
+from threading import Thread
+
 import mc
 import mcserver_maker
-from backend.notify import NotifyBot
+from notify import NotifyBot
 from server_types import ServerType
 
 serversJson = "servers.json"
